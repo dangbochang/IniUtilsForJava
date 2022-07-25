@@ -1,5 +1,6 @@
 # IniUtilsForJava
 --Enghish
+
 Ini java util that supporting Chinese and section comments.
 Based on the IniEditor.java of a great foreigner, I made some modifications:
 
@@ -17,6 +18,7 @@ boolean writeRet = IniUtil.Write (filepath, "section", "key", "value", "write co
 String value = IniUtil.read(filePath, "Section", "key", "default value");
 
 --Chinese
+
 支持中文、支持Section注释的Java工具类包。
 本人在老外大神的IniEditor.java基础之上，做了一些修改：
 
